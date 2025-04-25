@@ -3,7 +3,16 @@
 require_once('Connexio.php');
 require_once('Header.php');
 
+/**
+ * Classe per mostrar la llista de productes de la base de dades.
+ */
 class Principal {
+    
+     /**
+     * Mostra tots els productes i permet accions com modificar o eliminar.
+     *
+     * @return void
+     */
     
     // Método para mostrar la lista de productos
     public function mostrarProductes() {

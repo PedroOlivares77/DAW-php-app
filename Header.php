@@ -1,7 +1,15 @@
 <?php
 
+/**
+ * Classe per mostrar el capçal de la pàgina.
+ */
 class Header {
     
+    /**
+     * Mostra l'encapçalament amb la navbar i el carrusel.
+     *
+     * @return void
+     */
     // Método para mostrar el encabezado
     public function mostrarHeader() {
         // Imprime la estructura básica de un documento HTML con el encabezado y los estilos

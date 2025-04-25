@@ -3,7 +3,21 @@
 // Incluye el archivo de conexión
 require_once('Connexio.php');
 
+/**
+ * Classe per actualitzar productes a la base de dades.
+ */
 class Actualitzar {
+    
+    /**
+     * Actualitza un producte amb els valors rebuts.
+     *
+     * @param int|null $id Identificador del producte.
+     * @param string|null $nom Nom del producte.
+     * @param string|null $descripcio Descripció del producte.
+     * @param float|null $preu Preu del producte.
+     * @param int|null $categoria ID de la categoria del producte.
+     * @return void
+     */
     
     // Método para actualizar un producto en la base de datos
     public function actualizar($id, $nom, $descripcio, $preu, $categoria) {

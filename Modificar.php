@@ -3,8 +3,17 @@
 require_once('Connexio.php');
 require_once('Header.php');
 
+/**
+ * Classe per modificar productes existents.
+ */
 class Modificar {
 
+    /**
+     * Mostra el formulari per modificar un producte.
+     *
+     * @param int|null $id L'identificador del producte.
+     * @return void
+     */
     // Método para mostrar el formulario de modificación del producto
     public function mostrarFormulari($id) {
         // Verifica si el ID del producto es válido

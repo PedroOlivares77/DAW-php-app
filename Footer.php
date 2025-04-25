@@ -1,7 +1,16 @@
 <?php
 
+/**
+ * Classe que genera el footer de la pàgina HTML.
+ */
 class Footer {
 
+    /**
+     * Mostra el peu de pàgina amb estils i scripts.
+     *
+     * @return void
+     */
+    
    // Método para mostrar el pie de página
    public function mostrarFooter() {
         // Imprime el HTML del pie de página
